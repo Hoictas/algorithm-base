@@ -1,12 +1,20 @@
 package cn.tiakon.java.code.chapter01;
 
 /**
- * Hello world!
+ * 数组: 查找快、插入删除慢
+ * 有序数组
+ *      优点: 查找速度比无序快很多
+ *      缺点: 插入时，要按排序的方式把后面的数据进行移动
+ *
+ * 有序数据和无序数组共同缺点:
+ *      删除数据项时，必须把后面的数据向前移动来填补删除项的位置。
+ *
  */
 public class D01_Array {
     public static void main(String[] args) {
         long[] arr = new long[100];
 
+        //有效值
         int nElems;
         int count;
         long searchKey;
