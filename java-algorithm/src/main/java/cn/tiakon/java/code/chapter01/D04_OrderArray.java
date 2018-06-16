@@ -1,4 +1,4 @@
-package cn.tiakon.java.code.chapter02;
+package cn.tiakon.java.code.chapter01;
 
 /**
  * Desc :二分查找，适用于有序数组
@@ -18,7 +18,7 @@ package cn.tiakon.java.code.chapter02;
  * User : By Tiakon
  * Time : 2018/6/16 9:46
  */
-public class D01_OrderArray {
+public class D04_OrderArray {
 
     private long[] arr;
     private int nElems;
@@ -26,7 +26,7 @@ public class D01_OrderArray {
     //查找次数
     int count = 0;
 
-    public D01_OrderArray(int size) {
+    public D04_OrderArray(int size) {
         arr = new long[size];
         nElems = 0;
     }

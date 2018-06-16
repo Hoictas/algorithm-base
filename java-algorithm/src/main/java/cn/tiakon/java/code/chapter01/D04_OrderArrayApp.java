@@ -1,8 +1,8 @@
-package cn.tiakon.java.code.chapter02;
+package cn.tiakon.java.code.chapter01;
 
-public class D01_OrderArrayApp {
+public class D04_OrderArrayApp {
     public static void main(String[] args) {
-        D01_OrderArray orderArray = new D01_OrderArray(50);
+        D04_OrderArray orderArray = new D04_OrderArray(50);
 
         for (int i = 0; i < 10; i++) {
             orderArray.insert(i);
