@@ -12,8 +12,9 @@ package cn.tiakon.java.code.chapter02;
  * n*(n-1)/2
  * 大 O 表示法: O(n^2)
  *
- * 最坏情况下:
- * 交换次数与比较次数相同
+ * 交换次数:
+ * 最坏情况下与比较次数相同
+ *
  * 大 O 表示法: O(n^2)
  *
  * User : By Tiakon
