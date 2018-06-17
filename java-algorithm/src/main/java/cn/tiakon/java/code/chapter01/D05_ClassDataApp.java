@@ -1,5 +1,7 @@
 package cn.tiakon.java.code.chapter01;
 
+import cn.tiakon.java.code.bean.Person;
+
 public class D05_ClassDataApp {
     public static void main(String[] args) {
         D05_ClassDataAraay dataAraay = new D05_ClassDataAraay(50);
@@ -17,7 +19,7 @@ public class D05_ClassDataApp {
         dataAraay.displayAll();
 
         String searchKey = "Adams";
-        D05_Person resultPerson = dataAraay.find(searchKey);
+        Person resultPerson = dataAraay.find(searchKey);
 
         if (resultPerson != null) {
             dataAraay.delete("Adams");

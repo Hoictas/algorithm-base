@@ -1,16 +1,18 @@
 package cn.tiakon.java.code.chapter01;
 
+import cn.tiakon.java.code.bean.Person;
+
 public class D05_ClassDataAraay {
-    private D05_Person[] persons;
+    private Person[] persons;
     private int nElems;
 
     public D05_ClassDataAraay(int size) {
-        persons = new D05_Person[size];
+        persons = new Person[size];
         nElems = 0;
     }
 
     //按姓查找
-    public D05_Person find(String searchName) {
+    public Person find(String searchName) {
         int i;
         for (i = 0; i < nElems; i++) {
             if (persons[i].getLastName().equals(searchName)) break;
@@ -23,7 +25,7 @@ public class D05_ClassDataAraay {
     }
 
     public void insert(String lastName, String firstName, int age) {
-        D05_Person person = new D05_Person(lastName, firstName, age);
+        Person person = new Person(lastName, firstName, age);
         persons[nElems] = person;
         nElems++;
     }

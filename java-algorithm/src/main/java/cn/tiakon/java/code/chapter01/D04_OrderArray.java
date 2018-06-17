@@ -35,7 +35,7 @@ public class D04_OrderArray {
         return nElems;
     }
 
-    //添加数据项（线性查找）
+    //有序的插入元素（线性查找）
     public void insert(long value) {
         int i;
         for (i = 0; i < getSize(); i++) {
