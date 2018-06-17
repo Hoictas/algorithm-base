@@ -1,12 +1,12 @@
-package cn.tiakon.java.code.chapter01;
+package cn.tiakon.java.code.bean;
 
-public class D05_Person {
+public class Person {
     private String lastName;
     private String firstName;
     private int age;
 
 
-    public D05_Person(String lastName, String firstName, int age) {
+    public Person(String lastName, String firstName, int age) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.age = age;
