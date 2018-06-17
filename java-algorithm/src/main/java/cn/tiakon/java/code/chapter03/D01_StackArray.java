@@ -13,4 +13,41 @@ package cn.tiakon.java.code.chapter03;
  */
 public class D01_StackArray {
     private int[] stackArray;
+    private int maxSize;
+
+    // 栈顶
+    private int top;
+
+    public D01_StackArray(int maxSize) {
+        this.maxSize = maxSize;
+        stackArray = new int[maxSize];
+        top = -1;
+    }
+
+    //添加数据
+    public void push(int value) {
+        if (!isFull()) {
+            stackArray[++top] = value;
+        } else {
+            System.out.println("stack overflow...");
+        }
+    }
+
+    //查看并删除
+    public int pop() {
+        return stackArray[top--];
+    }
+
+    //查看
+    public int peek() {
+        return stackArray[top];
+    }
+
+    public boolean isEmpty() {
+        return top == -1;
+    }
+
+    public boolean isFull() {
+        return top == (maxSize - 1);
+    }
 }
