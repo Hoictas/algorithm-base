@@ -14,11 +14,15 @@ public class Person {
 
     public void displayPerson() {
         System.out.print("Last Name : " + lastName);
-        System.out.print(" ,First Name : " + firstName);
-        System.out.println(" ,Age : " + age);
+        System.out.print("\tFirst Name : " + firstName);
+        System.out.println("\tAge : " + age);
     }
 
     public String getLastName() {
         return lastName;
+    }
+
+    public int getAge() {
+        return age;
     }
 }
