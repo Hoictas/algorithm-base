@@ -17,4 +17,12 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+
+    @Test
+    public void testXXX() {
+        StringBuffer sb = new StringBuffer();
+        sb.append("中华民国");
+        System.out.println(sb.reverse());
+    }
 }
