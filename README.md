@@ -1,7 +1,6 @@
 # Algorithm Base
 [下载地址](https://pan.baidu.com/s/1rO7pfUGQzgwE_W9ifBAdqA)
 
-解压密码：mUkedAba.cOm/#10C349迪0dfdsa8E1 
 
 ------------------------课程介绍------------------------
 
