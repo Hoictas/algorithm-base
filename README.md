@@ -1,6 +1,14 @@
 # Algorithm Base
 [下载地址](https://pan.baidu.com/s/1rO7pfUGQzgwE_W9ifBAdqA)
 
+**百度云下载地址：**
+
+链接: https://pan.baidu.com/s/1o8Ev2Ee 密码: hr2n
+
+视频解压需要解压密码
+
+点击 star 或 fork 或转发消息 ， 截图发送至公众号可得 **解压密码** 。
+
 
 ------------------------课程介绍------------------------
 
