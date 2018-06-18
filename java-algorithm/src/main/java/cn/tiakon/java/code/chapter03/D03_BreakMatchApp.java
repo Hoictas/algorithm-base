@@ -3,7 +3,7 @@ package cn.tiakon.java.code.chapter03;
 import java.util.Scanner;
 
 /**
- * Desc : 分隔符匹配
+ * Desc : 括号匹配检验
  * User : By Tiakon
  * Time : 2018/6/17 21:44
  */
