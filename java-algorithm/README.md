@@ -8,6 +8,8 @@
 
 视频解压需要解压密码
 
+![](https://github.com/Tiakon/algorithm-base/blob/master/java-algorithm/image/qrcode_for_gh_d947c92393ec_258.jpg)
+
 点击 star 或 fork 或转发消息 ， 截图发送至公众号可得 **解压密码** 。
 
 
