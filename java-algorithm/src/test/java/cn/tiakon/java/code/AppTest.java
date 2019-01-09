@@ -9,9 +9,7 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+
     @Test
     public void shouldAnswerWithTrue()
     {
@@ -19,8 +17,11 @@ public class AppTest
     }
 
 
+    /**
+     * Reverse() Test :-)
+     */
     @Test
-    public void testXXX() {
+    public void reverseTest() {
         StringBuffer sb = new StringBuffer();
         sb.append("中华民国");
         System.out.println(sb.reverse());
