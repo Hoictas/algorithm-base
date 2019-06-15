@@ -10,7 +10,7 @@
 
 ![](https://github.com/Tiakon/algorithm-base/blob/master/java-algorithm/image/qrcode_for_gh_d947c92393ec_258.jpg)
 
-点击 star 或 fork 或转发消息 ， 截图发送至公众号可得 **解压密码** 。
+关注公众号回复 0001 可得 **解压密码** 。
 
 
 ------------------------课程介绍------------------------
