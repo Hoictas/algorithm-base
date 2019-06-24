@@ -50,7 +50,13 @@ public class ClimbTheStairsTest {
         }
     }
 
-    // 动态规划法 (利用数组来存储)
+    /**
+     * 动态规划法 (利用数组来存储)
+     * last time   : 2019/1/9 19:29
+     * last update : tiankai.me@gmail.com
+     * status : test success | test failied | no test
+     * @author Created by Tiakon on 2019/1/9 19:29.
+     */
     public int fib04(int n) {
         if (n == 0) {
             return 1;
@@ -64,7 +70,14 @@ public class ClimbTheStairsTest {
         return array[n];
     }
 
-    // 状态压缩法(又称滚动数组、滑动窗口，用于优化动态规划法的空间复杂度)
+
+    /**
+     * 状态压缩法(又称滚动数组、滑动窗口，用于优化动态规划法的空间复杂度)
+     * last time   : 2019/1/9 19:29
+     * last update : tiankai.me@gmail.com
+     * status : test success | test failied | no test
+     * @author Created by Tiakon on 2019/1/9 19:29.
+     */
     public int fib05(int n) {
         if (n == 1 || n == 0) {
             return 1;
@@ -82,7 +95,13 @@ public class ClimbTheStairsTest {
         return result;
     }
 
-    // 斐波那契数列的通项公式
+    /**
+     * 斐波那契数列的通项公式
+     * last time   : 2019/1/9 19:29
+     * last update : tiankai.me@gmail.com
+     * status : test success | test failied | no test
+     * @author Created by Tiakon on 2019/1/9 19:29.
+     */
     public int fib06(int n) {
         if (n == 0) {
             return 1;
