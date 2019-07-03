@@ -1,6 +1,7 @@
-package cn.tiakon.java.leetcode;
+package cn.tiakon.java.leetcode.hard;
 
 /**
+ *  【 #02 难易程度：困难 】
  * 给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。
  * 如果，我们将这两个数相加起来，则会返回一个新的链表来表示它们的和。
  * 您可以假设除了数字 0 之外，这两个数都不会以 0 开头。
@@ -15,7 +16,7 @@ package cn.tiakon.java.leetcode;
  *
  * @author Created by Tiakon on 2019/1/9 11:23.
  */
-public class LeetCode02_AddTwoNumbers {
+public class LC02AddTwoNumbers {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         ListNode currentNode1 = l1;
