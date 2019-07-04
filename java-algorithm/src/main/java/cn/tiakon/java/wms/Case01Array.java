@@ -19,9 +19,7 @@ public class Case01Array {
         array.insertByindex(4, 4);
         array.insertByindex(9, 5);
         array.insertByindex(7, 6);
-        array.insertByindex(31, 3);
-        array.insertByindex(21, 2);
-        array.insertByindex(11, 1);
+        array.delete( 5);
 
         array.output();
 
@@ -51,7 +49,6 @@ class ArrayDemo {
             this.ints = arrayNew;
         }
 
-
         // 从右往左循环，将元素右移
         for (int i = size - 1; i >= index; i--) {
             ints[i + 1] = ints[i];
@@ -67,6 +64,21 @@ class ArrayDemo {
             System.out.println(ints[i]);
         }
     }
+
+
+    public void delete(int index) {
+
+        if (index < 0 || index > size) {
+            throw new IndexOutOfBoundsException(">> 插入位置超出范围...");
+        }
+
+        // 从左向右移
+        for (int i = index; i < size - 1; i++) {
+            ints[i] = ints[i + 1];
+        }
+        size--;
+    }
+
 
 }
 
